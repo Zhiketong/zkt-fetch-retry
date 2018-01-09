@@ -1,0 +1,32 @@
+{
+  "name": "zkt-fetch-retry",
+  "version": "1.0.0",
+  "description": "node-fetch wrapped with retry and better error output",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "DEBUG=* node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zhiketong/zkt-fetch-retry.git"
+  },
+  "keywords": [
+    "fetch",
+    "node-fetch",
+    "fetch",
+    "retry"
+  ],
+  "author": "Chunlong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Zhiketong/zkt-fetch-retry/issues"
+  },
+  "homepage": "https://github.com/Zhiketong/zkt-fetch-retry#readme",
+  "dependencies": {
+    "delay": "^2.0.0",
+    "zkt-fetch": "^1.0.1"
+  }
+}
